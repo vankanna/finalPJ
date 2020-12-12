@@ -10,7 +10,6 @@ var raceOver = true;
 
 var funds = 100;
 var bet = [];
-var bet_multiplier = 2;
 var box = false;
 
 
@@ -103,9 +102,6 @@ function getOdds(speed, endurance) {
     return (parseFloat(endurance / speed * 2)).toFixed(2);
 }
 
-function getRecoverRate(endurance) {
-    return getRandomAttribute(endurance / 2, endurance * 2)
-}
 
 function getBehavior(speed, endurance) {
     return `speed: ${speed} - endurance: ${endurance}`;
