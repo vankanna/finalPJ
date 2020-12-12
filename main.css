@@ -1,0 +1,144 @@
+#rules {
+  margin-top: 100px;
+  width: 60%;
+  padding: 2.5%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+#rules h1 {
+  text-align: center;
+}
+
+#rules p {
+  padding: 1.5%;
+}
+
+#rules a {
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+}
+#home-wrapper {
+  padding: 2.5%;
+  background-image: url('./background.jpg');
+  height: 1080px;
+}
+
+#track {
+  position: relative;
+  background-color: green;
+  width: 1920px;
+  height: 256px;
+}
+
+.racer {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  background-image: url('./horse.gif');
+  color: yellow;
+  font-size: 1.2rem;
+}
+
+#betting-modal {
+  height: 200px;
+  text-align: center;
+}
+
+#funds {
+  position: relative;
+  float: left;
+  height: 200px;
+  padding: 2.5% 0;
+  width: 300px;
+  border-right: 2px solid #000;
+  font-size: 3rem;
+}
+
+#bet {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  padding: 2.5% 0;
+  float: left;
+  border-right: 2px solid #000;
+  font-size: 3rem;
+}
+
+#bet-cost {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  padding: 2.5% 0;
+  float: left;
+  border-right: 2px solid #000;
+  font-size: 3rem;
+}
+
+#winners {
+  position: relative;
+  height: 200px;
+  width: 400px;
+  padding: 2.5% 0;
+  float: left;
+  border-right: 2px solid #000;
+  font-size: 3rem;
+}
+
+.label {
+  position: absolute;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 25px;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+#bet-controls {
+  padding: 2.5% 0;
+
+  float: left;
+  height: 200px;
+  width: 300px;
+  border-right: 2px solid #000;
+}
+
+#bet-controls button {
+  height: 50px;
+  width: 100px;
+  margin: 2.5%;
+}
+
+.card {
+  width: 20%;
+  margin: 25px 2.5%;
+  height: 150px;
+  float: left;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.card:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.speed,
+.endurance {
+  width: 80%;
+  height: 50px;
+  margin: 10px 5%;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.bar {
+  display: block;
+  height: 20px;
+}
